@@ -18,23 +18,23 @@ class Greeter extends React.Component {
     render() {
         return (
             <div >
-                    <p> {this.props.message}</p>
+                    <p>{this.props.message}</p>
                   <ShowGreeting action={this.props.bday} label="Birthday"></ShowGreeting>
                   <ShowGreeting action={this.props.vday} label="Valentineday"></ShowGreeting>
             </div>
         );
     }
 }
-const mapDispatchToProps = (dispatch) => {
-    return {
-        bday : () =>{
-            dispatch(birth);
-        },
-        vday : ()=>{
-            dispatch(valen);
+    const mapDispatchToProps = (dispatch) => {
+        return {
+            bday : () =>{
+                dispatch(birth);
+            },
+            vday : ()=>{
+                dispatch(valen);
+            }
         }
     }
-}
 
 
 const mapStateToProps =(state)=> {

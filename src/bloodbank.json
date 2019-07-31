@@ -1,0 +1,36 @@
+{
+  "bloodDonors": [
+  {
+  "id": 104,
+  "donorName": "Ramesh",
+  "bloodGroup": "opos",
+  "lastDonated": "2019-06-12"
+  },
+  {
+  "id": 105,
+  "donorName": "Suresh",
+  "bloodGroup": "apos",
+  "lastDonated": "2018-05-12"
+  },
+  {
+  "id": 106,
+  "donorName": "Mahesh",
+  "bloodGroup": "apos",
+  "lastDonated": "2017-04-12"
+  },
+  {
+  "id": 107,
+  "donorName": "Mangesh",
+  "bloodGroup": "opos",
+  "lastDonated": "2016-08-12"
+  },
+  {
+  "id": "110",
+  "donorName": "Vicky",
+  "bloodGroup": "opos",
+  "lastDonated": "2019-07-10"
+  }
+  ],
+  "hospitals": [],
+  "sponsors": []
+  }
